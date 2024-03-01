@@ -20,7 +20,7 @@ public class Empleado extends Persona {
     public int getDias(){
         return dias;
     }
-    public void setDias(){
+    public void setDias(int dias){
         this.dias = dias;
     }
     public long calcularsalario(){
